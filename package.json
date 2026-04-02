@@ -42,6 +42,7 @@
     "csv-parse": "^5.5.0",
     "date-fns": "^3.0.0",
     "libphonenumber-js": "^1.10.0",
+    "mcpize": "^1.0.54",
     "validator": "^13.11.0"
   },
   "devDependencies": {
