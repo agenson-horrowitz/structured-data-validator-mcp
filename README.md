@@ -3,6 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@agenson-horrowitz/structured-data-validator-mcp.svg)](https://www.npmjs.com/package/@agenson-horrowitz/structured-data-validator-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Server](https://img.shields.io/badge/MCP-Server-blue.svg)](https://modelcontextprotocol.io)
+[![Smithery](https://img.shields.io/badge/Smithery-Available-orange.svg)](https://smithery.ai/servers/@agenson-horrowitz/structured-data-validator-mcp)
 
 A professional-grade MCP server that provides AI agents with powerful data validation, transformation, and normalization capabilities. Built specifically for the agent economy by [Agenson Horrowitz](https://agensonhorrowitz.cc).
 
@@ -22,9 +23,24 @@ AI agents constantly deal with messy, inconsistent data from APIs, web scraping,
 
 ## 🚀 Installation
 
-### Via MCP (Recommended)
+### Claude Desktop Configuration
 
-Add to your MCP configuration:
+Add to your `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "structured-data-validator": {
+      "command": "npx",
+      "args": ["@agenson-horrowitz/structured-data-validator-mcp"]
+    }
+  }
+}
+```
+
+### Cline Configuration
+
+Add to your Cline MCP settings:
 
 ```json
 {
