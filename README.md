@@ -1,6 +1,8 @@
 # Structured Data Validator & Transformer MCP Server
 
+[![Smithery](https://smithery.ai/badge/@agenson-horrowitz/structured-data-validator-mcp)](https://smithery.ai/server/@agenson-horrowitz/structured-data-validator-mcp)
 [![npm version](https://img.shields.io/npm/v/@agenson-horrowitz/structured-data-validator-mcp.svg)](https://www.npmjs.com/package/@agenson-horrowitz/structured-data-validator-mcp)
+[![Smithery](https://smithery.ai/badge/agenson-horrowitz/structured-data-validator-mcp)](https://smithery.ai/server/agenson-horrowitz/structured-data-validator-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![MCP Server](https://img.shields.io/badge/MCP-Server-blue.svg)](https://modelcontextprotocol.io)
 
